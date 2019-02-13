@@ -1,0 +1,60 @@
+body {
+    font-family: 'Raleway';
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+hr {
+    border-color: #C6B8AF;
+}
+.btn {
+    color: #39262C;
+    border-color: #39262C;
+    background-color: #C6B8AF;
+    font-size: 1.3rem;
+}
+.btn:hover {
+    color: white;
+    background-color: #B3623B;
+    border: none;
+}
+#content {
+    text-align: center;
+    color: #c6b8af;
+	padding-top: 12%;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+					0px 8px 13px rgba(0,0,0,0.1),
+					0px 18px 23px rgba(0,0,0,0.1);
+}
+#text{
+    font-size: 1.25rem;
+}
+#mainNavbar .nav-link {
+    color: #B3623B;
+    font-weight: 300;
+    font-size: 1.25rem;
+}
+#mainNavbar .nav-link:hover {
+    color:white;
+    font-weight: 700;
+}
+#mainNavbar .nav-link:hover.scrolled {
+    color:#39262C;
+    font-weight: 700;
+}
+.navbar.scrolled {
+    background: #C6B8AF;
+    transition: background 500ms;
+}
+#mainNavbar .nav-link.scrolled{
+    color: #5A2F2F;
+}
+
+#mainNavbar .navbar-brand {
+    color: white;
+    font-weight: 700;
+}
+.card {
+    background: #C6B8AF
+}

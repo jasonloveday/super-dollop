@@ -1,0 +1,76 @@
+body {
+    font-family: 'Raleway';
+    background-color: #E5FCFF;
+}
+hr {
+    border-color: rgb(36, 31, 29);
+    width: 100px;
+}
+.btn {
+    color: #DAFCD7;
+    border-color: #DAFCD7;
+    background-color: #B4BBBD;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.btn:hover {
+    color: #E5FCFF;
+    background-color: #30011E;
+    border: none;
+    font-weight: 700;
+}
+#heading {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+#content {
+    text-align: left;
+    color: #30011E;
+    padding-top: 15%;
+	/* text-shadow: 0px 4px 3px rgba(0,0,0,0.4), */
+					/* 0px 8px 13px rgba(0,0,0,0.1), */
+					/* 0px 18px 23px rgba(0,0,0,0.1); */
+}
+#text{
+    /* font-size: 1.25rem; */
+    color: #30011E;
+}
+#mainNavbar .nav-link {
+    color: #E5FCFF;
+    font-weight: 300;
+    font-size: 1.25rem;
+}
+#mainNavbar .nav-link:hover {
+    color: #30011E;
+    font-weight: 400;
+}
+#mainNavbar .nav-link:hover.scrolled {
+    color:#E5FCFF;
+    font-weight: 400;
+}
+.navbar.scrolled {
+    background: #B4BBBD;
+    transition: background 500ms;
+}
+#mainNavbar .nav-link.scrolled{
+    color: #5A2F2F;
+}
+
+#mainNavbar .navbar-brand {
+    color: #B4BBBD;
+    font-weight: 700;
+}
+#mainNavbar .navbar-brand.scrolled {
+    color: #DAFCD7;
+}
+.card {
+    background: #C6B8AF
+}
+#spacer {
+    height: 200px;
+}
+
+#intro {
+    font-style: italic;
+    font-weight: 600;
+}
