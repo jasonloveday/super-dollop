@@ -40,6 +40,12 @@ hr {
     font-weight: 300;
     font-size: 1.25rem;
 }
+nav ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+        
 #mainNavbar .nav-link:hover {
     color: #30011E;
     font-weight: 400;
@@ -57,7 +63,7 @@ hr {
 }
 
 #mainNavbar .navbar-brand {
-    color: #B4BBBD;
+    color: #E5FCFF;
     font-weight: 700;
 }
 #mainNavbar .navbar-brand.scrolled {
