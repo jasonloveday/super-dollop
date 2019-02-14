@@ -6,6 +6,9 @@ hr {
     border-color: rgb(36, 31, 29);
     width: 100px;
 }
+#email {
+    text-decoration-line: underline;
+}
 .btn {
     color: #DAFCD7;
     border-color: #DAFCD7;
@@ -57,6 +60,9 @@ nav ul {
 .navbar.scrolled {
     background: #B4BBBD;
     transition: background 500ms;
+}
+.navbar-toggler {
+    color: #30011E;
 }
 #mainNavbar .nav-link.scrolled{
     color: #5A2F2F;
