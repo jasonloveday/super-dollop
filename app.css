@@ -9,6 +9,10 @@ hr {
 #email {
     text-decoration-line: underline;
 }
+#expertiseList {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
 .btn {
     color: #DAFCD7;
     border-color: #DAFCD7;
@@ -29,7 +33,7 @@ hr {
 #content {
     text-align: left;
     color: #30011E;
-    padding-top: 15%;
+    padding-top: 12%;
 	/* text-shadow: 0px 4px 3px rgba(0,0,0,0.4), */
 					/* 0px 8px 13px rgba(0,0,0,0.1), */
 					/* 0px 18px 23px rgba(0,0,0,0.1); */
@@ -83,6 +87,6 @@ nav ul {
 }
 
 #intro {
-    font-style: italic;
+    /* font-style: italic; */
     font-weight: 600;
 }
